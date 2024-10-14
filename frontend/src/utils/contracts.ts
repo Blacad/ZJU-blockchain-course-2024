@@ -20,4 +20,4 @@ const buyMyRoomContract = new web3.eth.Contract(buyMyRoomABI, buyMyRoomAddress);
 const myERC721Contract = new web3.eth.Contract(myERC721ABI, myERC721Address);
 
 // 导出web3实例和其它部署的合约
-export {web3, buyMyRoomContract, myERC721Contract}
+export {web3, buyMyRoomContract, myERC721Contract,myERC721Address,buyMyRoomAddress}

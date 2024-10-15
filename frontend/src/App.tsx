@@ -20,11 +20,10 @@ function App() {
   //       </a>
   //     </header>
   //   </div>
+
   // );
   return (
-    <div className="App">
       <BuymyRoomPage/>
-    </div>
   );
 }
 

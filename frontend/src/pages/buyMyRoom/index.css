@@ -1,0 +1,45 @@
+body{
+  background-color: #282c34;
+  color:#ffffff;
+}
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+  }
+  .line{
+    position: absolute;
+    height: 1000000px;
+  }
+  .heart:before,
+  .heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  .heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+  .mask {
+    background-color: #252525;
+    color: #ffffff;
+    transition: color 0.5s;
+}
+.head{
+  background-color: #282c34;
+  align-items:center ;
+    color:white
+}
+
+.mask:hover {
+    color: #252525;
+}

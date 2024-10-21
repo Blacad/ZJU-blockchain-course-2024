@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react';
 import {buyMyRoomContract,myERC721Contract,web3,myERC721Address,buyMyRoomAddress} from "../../utils/contracts";
 import './index.css'
 const GanacheTestChainId = '0x539' // Ganache默认的ChainId = 0x539 = Hex(1337)
-// TODO change according to your configuration
+// Over
 const GanacheTestChainName = 'Ganache Test Chain'
 const GanacheTestChainRpcUrl = 'http://127.0.0.1:8545'
 
